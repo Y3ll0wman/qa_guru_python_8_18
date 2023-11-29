@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qa-guru-python-8-18"
+version = "0.1.0"
+description = "Задание к восемнадцатому уроку курса QA Guru"
+authors = ["Konstantin Varvarkin <varvarkin.k@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "7.4.3"
+selene = "2.0.0rc4"
+selenium = ">=4.15.2,<4.16.0"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.2"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
